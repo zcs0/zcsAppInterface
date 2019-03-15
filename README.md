@@ -40,3 +40,8 @@
    + 通过getDeclaredFields获取实体类属性的时候，不能获取父类中的id属性，导致缺少id程序异常 另外getFields()似乎不能获取属性值
    + BaseDao中hql参数那块 where id =:id 其中冒号后不可以有空格
    + 由于从jsonObject取出的值都是以String类型呈现 导致执行hibernate Query传参中 参数转换异常 ----  类似这样的代码可以解决问题 map.put("id",Long.parseLong(jsonObjectbefore.get("id").toString()));
+   
+## Git使用出现的问题
+   + 项目地址 git@github.com:MoXi2017/zcsAppInterface.git
+   + ssh-keygen 生成id_rsa.pub文件 ---- https://blog.csdn.net/a419419/article/details/80021684
+   + 将本地资源上传到远程仓库 ---- https://www.cnblogs.com/eoooxy/p/6075625.html
